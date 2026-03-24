@@ -59,6 +59,18 @@ Run all tests:
 npm test
 ```
 
+Validate the checked-in OpenAPI spec against the current route definitions:
+
+```bash
+npm run openapi:validate
+```
+
+Regenerate `openapi.yaml` after changing the API surface:
+
+```bash
+npm run openapi:generate
+```
+
 ---
 
 _Built with ❤️ for the Stellarcade community._
